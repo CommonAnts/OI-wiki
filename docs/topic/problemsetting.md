@@ -510,11 +510,6 @@ Codeforces 是全球最著名的算法竞赛网站之一，题目质量较高，
 
 在进入准备阶段后，一般会使用 Telegram 进行讨论，如果由于一些原因无法使用 Telegram，可以尝试邀请管理使用 QQ（300iq 是会使用 QQ 的）。
 
-### Comet OJ
-
-创办时间不是很久的国内算法竞赛平台，应该算是国内平台出题的最佳选择。
-
-出题申请： <https://info.cometoj.com/contests/Questionnaire_IssuerInfo/> 
 
 ### CodeChef
 
@@ -528,11 +523,17 @@ Codeforces 是全球最著名的算法竞赛网站之一，题目质量较高，
 
 日本的算法竞赛平台，出题联系方式： [contest@atcoder.jp](mailto:contest@atcoder.jp) 。
 
+### Comet OJ
+
+国内算法竞赛平台。
+
+出题申请： <https://info.cometoj.com/contests/Questionnaire_IssuerInfo/> 
+
 ### UOJ & LOJ
 
-比赛不多的国内 OJ。
+国内算法竞赛平台。
 
-出题貌似是联系管理？
+出题需要在OJ内私信（UOJ），或者在相应的QQ群（Universal OJ 用户群/LibreOJ 用户群）联系管理员。
 
 ### 洛谷
 
