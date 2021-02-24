@@ -16,25 +16,21 @@ author: linehk
 
 ### 大 O 符号
 
-$\Theta$ 符号同时给了我们一个函数的上下界，如果我们只有一个函数的渐进上界的时候，我们使用 $O$ 符号。对于一个给定的函数 $g(n)$, 我们把它记作 $O(g(n))$。$f(n)=O(g(n))$，当且仅当 $\exists c,n_0$，使得 $\forall n \ge n_0,0\le f(n)\le c\cdot g(n)$。
+$\Theta$ 符号同时给了我们一个函数的上下界，如果我们只有一个函数的渐进上界的时候，我们使用 $O$ 符号。对于一个给定的函数 $g(n)$, 我们把它记作 $O(g(n))$。$f(n)=O(g(n))$，当且仅当 $\exists c>0,n_0$，使得 $\forall n \ge n_0,0\le f(n)\le c\cdot g(n)$。
 
-研究时间复杂度时通常会使用 $O$ 符号，因为我们关注的通常是程序用时的上界，而不关心其用时的下界。
+研究时间复杂度时通常会使用 $O$ 符号，因为编程竞赛通常关注程序用时的上界以确保在时限内解决问题。
 
 ### 大 Ω 符号
 
-同样的，我们使用 $\Omega$ 符号来描述一个函数的渐进下界。$f(n)=\Omega(g(n))$，当且仅当 $\exists c,n_0$，使得 $\forall n \ge n_0,0\le c\cdot g(n)\le f(n)$。
+同样的，我们使用 $\Omega$ 符号来描述一个函数的渐进下界。$f(n)=\Omega(g(n))$，当且仅当 $\exists c>0,n_0$，使得 $\forall n \ge n_0,0\le c\cdot g(n)\le f(n)$。
 
 ### 小 o 符号
 
-如果说 $O$ 符号相当于小于等于号，那么 $o$ 符号就相当于小于号。
-
-$f(n)=o(g(n))$，当且仅当对于任意给定的正数 $c$，$\exists n_0$，使得 $\forall n \ge n_0,0\le f(n)< c\cdot g(n)$。
+$f(n)=o(g(n))$，当且仅当 $\forall c>0$，$\exists n_0$，使得 $\forall n \ge n_0,0\le f(n)< c\cdot g(n)$。
 
 ### 小 ω 符号
 
-如果说 $\Omega$ 符号相当于大于等于号，那么 $\omega$ 符号就相当于大于号。
-
-$f(n)=\omega(g(n))$，当且仅当对于任意给定的正数 $c$，$\exists n_0$，使得 $\forall n \ge n_0,0\le c\cdot g(n)< f(n)$。
+$f(n)=\omega(g(n))$，当且仅当 $\forall c>0$，$\exists n_0$，使得 $\forall n \ge n_0,0\le c\cdot g(n)< f(n)$。
 
 ![](images/order.png)
 
